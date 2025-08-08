@@ -1,0 +1,6 @@
+gradio
+torch
+torchvision
+pillow
+opencv-python-headless
+grad-cam
