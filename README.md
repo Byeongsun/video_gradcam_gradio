@@ -5,7 +5,7 @@ colorFrom: indigo
 colorTo: blue
 sdk: gradio
 sdk_version: "5.41.1"
-app_file: video_gradcam.py
+app_file: video_gradcam_app.py
 pinned: false
 ---
 
