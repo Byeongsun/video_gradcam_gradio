@@ -4,8 +4,8 @@ emoji: 🎬
 colorFrom: indigo
 colorTo: blue
 sdk: gradio
-sdk_version: "3.50.2"
-app_file: app.py
+sdk_version: "5.41.1"
+app_file: video_gradcam.py
 pinned: false
 ---
 
