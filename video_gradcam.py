@@ -57,7 +57,7 @@ def analyze_video(video):
         if frame_count < 50 or frame_count % 20 != 0:
             continue
         rgb = cv2.cvtColor(frame, cv2.COLOR_BGR2RGB)
-        pil_img = Image.framarray(rgb)
+        pil_img = Image.fromarray(rgb)
         input_tensor = transform(pil_img).unsqueeze(0).to(device)
         
         with torch.no_grad():
